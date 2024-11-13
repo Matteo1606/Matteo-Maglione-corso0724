@@ -1,1 +1,0 @@
-citta = input
