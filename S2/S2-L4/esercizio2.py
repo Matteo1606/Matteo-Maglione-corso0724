@@ -16,7 +16,7 @@ scelta=input("Scegli di quale figura geometrica vuoi calcolare il perimetro (qua
 if scelta == "quadrato":
     lato = float(input("inserisci la lunghezza del lato:  "))
     perimetro=perimetro_quadrato(lato)
-    print(f"il perimetro del quadrato è:  {lato * 4}")
+    print(f"il perimetro del quadrato è: {perimetro}")
 
 elif scelta == "cerchio":
     raggio = float(input("Inserisci il raggio del cerchio:  "))
